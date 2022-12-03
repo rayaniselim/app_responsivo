@@ -1,6 +1,6 @@
-import 'package:app_responsivo/Loja_virtual/loja_virtual.dart';
-
 import 'package:flutter/material.dart';
+
+import 'tamanho/tamanho_proporcional.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -11,9 +11,9 @@ void main() {
     // home: ResponsividadeWrap(),
     // home: Orientacao(),
     // home: RegrasLayout(),
-    home: LojaVirtual(),
+    // home: LojaVirtual(),
     // home: TamanhoTextos(),
-    // home: TamanhoProporcional(),
+    home: TamanhoProporcional(),
     // home: DiferentesTamanhos(),
   ));
 }

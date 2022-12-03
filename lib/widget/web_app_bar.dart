@@ -39,22 +39,22 @@ class _WebAppBarState extends State<WebAppBar> {
             ),
             OutlinedButton(
               onPressed: () {},
-              child: Text('Cadastrar'),
               style: OutlinedButton.styleFrom(
                 backgroundColor: Colors.red.shade300,
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
+              child: const Text('Cadastrar'),
             ),
             const SizedBox(
               width: 10,
             ),
             OutlinedButton(
               onPressed: () {},
-              child: Text('Entrar'),
               style: OutlinedButton.styleFrom(
                 backgroundColor: Colors.red.shade300,
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
+              child: const Text('Entrar'),
             ),
           ],
         ),

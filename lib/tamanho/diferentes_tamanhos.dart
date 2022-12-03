@@ -13,7 +13,7 @@ class _DiferentesTamanhosState extends State<DiferentesTamanhos> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('TDiferentes Tamanhos'),
+        title: const Text('Diferentes Tamanhos'),
       ),
 // MAIS FACIL, ambas ficam da mesma altura
 // OU IntrinsicWidht para  a mesma largura
@@ -25,12 +25,12 @@ class _DiferentesTamanhosState extends State<DiferentesTamanhos> {
             Container(
               width: 200,
               color: Colors.amber,
-              child: Text('Item 1'),
+              child: const Text('Item 1'),
             ),
             Container(
               width: 200,
               color: Colors.pink,
-              child: Text('Item 2, kkkkkkkkkkkkkkkkkkkkkkkk'),
+              child: const Text('Item 2, kkkkkkkkkkkkkkkkkkkkkkkk'),
             ),
           ],
         ),

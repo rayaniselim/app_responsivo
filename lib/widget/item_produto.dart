@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 // AULA 21
 class ItemProduto extends StatelessWidget {
-  String descricao;
-  String preco;
-  String imagem;
+  final String descricao;
+  final String preco;
+  final String imagem;
 
-  ItemProduto(this.descricao, this.preco, this.imagem, {Key? key})
+  const ItemProduto(this.descricao, this.preco, this.imagem, {Key? key})
       : super(key: key);
 
   @override
@@ -34,7 +34,7 @@ class ItemProduto extends StatelessWidget {
                 descricao,
                 textAlign: TextAlign.center,
               )),
-          Expanded(
+          const Expanded(
             flex: 1,
             child: Text(''),
           ),

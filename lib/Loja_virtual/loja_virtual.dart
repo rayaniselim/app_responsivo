@@ -35,21 +35,20 @@ class _LojaVirtualState extends State<LojaVirtual> {
         return Scaffold(
           appBar: largura < 600
               ? PreferredSize(
-                  child: const MobileAppBar(),
                   preferredSize: Size(largura, alturaBarra),
+                  child: const MobileAppBar(),
                 )
               : PreferredSize(
-                  child: const WebAppBar(),
                   preferredSize: Size(largura, alturaBarra),
+                  child: const WebAppBar(),
                 ),
-// espaco branco nas laterais
           body: Padding(
             padding: const EdgeInsets.all(16),
             child: GridView.count(
               crossAxisCount: _ajustarVisualizacao(largura), //coluna
               crossAxisSpacing: 8, // espacos
               mainAxisSpacing: 8, // espacos
-              children: [
+              children: const [
                 ItemProduto("Sorvete de Morango", "12.00", "morango.png"),
                 ItemProduto("Sorvete de Limao", "10.00", "limao.png"),
                 ItemProduto(

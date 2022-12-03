@@ -18,12 +18,12 @@ class _TamanhoProporcionalState extends State<TamanhoProporcional> {
       body: Container(
         color: Colors.amber,
         // FractionallySizedBox nao consegue usar em Column ou ROW(linhas)
-//         child: const FractionallySizedBox(
-//   Assim nao precisa utilizar o MediaQuery, define de maneira mais simples
-//           widthFactor: 0.50, // 50% largura total
-//           heightFactor: 0.50, // altura total
-//           alignment: Alignment.topLeft,
-//           child: Text('Tamanho Proporcional'),
+        // child: const FractionallySizedBox(
+        //   // Assim nao precisa utilizar o MediaQuery, define de maneira mais simples
+        //   widthFactor: 0.50, // 50% largura total
+        //   heightFactor: 0.50, // altura total
+        //   alignment: Alignment.topLeft,
+        //   child: Text('Tamanho Proporcional'),
 
 // OU - dentro de um Flexible
 
